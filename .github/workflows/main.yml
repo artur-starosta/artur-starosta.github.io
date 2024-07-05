@@ -4,4 +4,4 @@ jobs:
   explore-first:
   runs-on: ubuntu-latest
   steps:
-    -run: echo "czesc"
+    - run: echo "czesc"
