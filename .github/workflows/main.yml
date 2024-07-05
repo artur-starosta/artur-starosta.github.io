@@ -6,6 +6,6 @@ jobs:
     steps:
       - run: echo "czesc"
       - name: Check
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
       - run: |
           ls ${{ github.workspace }}
