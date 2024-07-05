@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "czesc"
+      - name: Check
+        uses: action/checkout@v2
       - run: |
           ls ${{ github.workspace }}
